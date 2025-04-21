@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(244, 237, 223);
+    height: 300px;
+}
+
+.catalog-block{
+    overflow: hidden;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 35px;
+}
+
+.nav-block{
+    height: 55%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.content{
+    padding-top: 5%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 10%;
+    gap: 50px;
+}
+
+.day-h1{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 45px;
+}
+
+.day-text{
+    font-family: sans-serif;
+    text-align: center;
+}
+
